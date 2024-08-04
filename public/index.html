@@ -21,7 +21,7 @@
             const command = commandInput.value;
             commandInput.value = '';
 
-            fetch('/run', {
+            fetch('/api/run', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
